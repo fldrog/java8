@@ -1,0 +1,11 @@
+Key,Application,Value,Comments
+sql.schema,,pele,
+dbcp.dburl,,jdbc:oracle:thin:@abplocal:1521:pele,
+dbcp.dbuser,OneworksFeed,${sql.schema}_betradarfeed,
+dbcp.dbpassword,OneworksFeed,abp_betradarfeed,
+
+forcefeed.server.url,,"http://localhost:8700",
+
+jms.server,,"scn://localhost",""
+rabbitmq.host,,"localhost","The Rabbit MQ host for the Live FEED RMQ API"
+rabbitmq.port,,15672,""
